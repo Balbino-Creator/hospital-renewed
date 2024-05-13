@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital San José</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Hospital San José</h1>
+        <nav>
+            <ul>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#doctores">Doctores</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <p>En el Hospital San José, ofrecemos una amplia gama de servicios médicos para satisfacer las necesidades de nuestros pacientes. Nuestro equipo de profesionales altamente calificados está comprometido a brindar la mejor atención médica posible.</p>
+        <ul>
+            <li>Consulta médica general</li>
+            <li>Consultas especializadas</li>
+            <li>Exámenes de laboratorio</li>
+            <li>Cirugías</li>
+            <li>Atención de emergencias</li>
+        </ul>
+    </section>
+
+    <section id="doctores">
+        <h2>Doctores</h2>
+        <p>Nuestro equipo de médicos está formado por especialistas dedicados y experimentados en diversas áreas de la medicina. Estamos comprometidos a proporcionar la mejor atención médica a nuestros pacientes.</p>
+        <div class="doctor">
+            <img src="../../public/medico.png" alt="Doctor Smith" width="100px">
+            <h3>Dr. Juan Smith</h3>
+            <p>Especialidad: Cardiología</p>
+        </div>
+        <div class="doctor">
+            <img src="../../public/medico.png" alt="Doctor Rodriguez" width="100px">
+            <h3>Dra. María Rodriguez</h3>
+            <p>Especialidad: Pediatría</p>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¡Estamos aquí para ayudarte! Si tienes alguna pregunta o necesitas más información, no dudes en ponerte en contacto con nosotros.</p>
+        <p>Teléfono: 123-456-789</p>
+        <p>Correo electrónico: info@hospitalsanjose.com</p>
+        <p>Dirección: Av. Principal #123, Ciudad, País</p>
+        <h2>Formulario de Contacto</h2>
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        </div>
+        <button type="submit">Enviar Mensaje</button>
+    </form>
+        <br><br>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Hospital San José. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
