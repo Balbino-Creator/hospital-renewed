@@ -6,7 +6,7 @@ import Principal from './paginas/Principal'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Router>
+    <Router basename='/hospital-renewed'>
       <Routes>
         <Route path="/" element={<Principal/>}/>
       </Routes>
